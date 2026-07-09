@@ -1,32 +1,27 @@
 # Memory Match Game
 
-## Description
+**A classic card-matching game — find all the pairs in the fewest moves and the fastest time.**
 
-Memory Match Game is a classic card matching game where players flip over two cards at a time to find matching pairs. The goal is to match all pairs in the least number of moves and as quickly as possible. This game is built using JavaScript, HTML, and CSS.
+![Memory Match Game screenshot](docs/screenshot.jpg)
+
+**[Play it live →](https://anastacodes.github.io/MemoryMatchGame/)**
 
 ## Features
 
-- Simple and intuitive user interface.
-- Flip cards to reveal their hidden content.
-- Match pairs to keep them flipped over.
-- Track the number of moves made.
-- Track the time taken to complete the game.
+- Flip two cards at a time to reveal their hidden emoji
+- Matched pairs stay face-up; misses flip back
+- Move counter and timer track your performance
+- End-of-game stats screen with one-click restart
+- Built with vanilla HTML, CSS and JavaScript — no frameworks, no build step
 
-## Demo
+## Run locally
 
-You can play the game [here](https://anastacodes.github.io/MemoryMatchGame/).
-
-## Technologies Used
-
-- HTML
-- CSS
-- JavaScript
+```bash
+git clone https://github.com/AnastaCodes/MemoryMatchGame.git
+open MemoryMatchGame/index.html
+```
 
 ## Acknowledgments
 
 - Inspired by classic memory matching card games.
 - Icons by [emoji.aranja](https://emoji.aranja.com/).
-
-## Contact
-
-If you have any questions or suggestions, please feel free to reach out.
