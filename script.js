@@ -122,6 +122,7 @@ function resetBoard() {
 
 //at the end of the game
 function showStats() {
+  clearInterval(timerInterval);
   const endTime = new Date();
   const timeTaken = Math.round((endTime - startTime) / 1000); // time in seconds
   const statsContainer = document.createElement("div");
